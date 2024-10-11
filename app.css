@@ -1,0 +1,108 @@
+/* Global styles */
+body {
+  background-image: linear-gradient(to bottom, #212121, #333);
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  height:100vh
+}
+
+/* Task list styles */
+.task-list {
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #444;
+  overflow: hidden; /* Add a subtle overflow effect */
+}
+
+.task-list h1 {
+  color: #66cc00;
+  margin-top: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 24px; /* Increase font size for better readability */
+}
+
+/* Task styles */
+.task {
+  background-color: #3f3f3f;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.task:hover {
+  background-color: #4f4f4f; /* Change background color on hover */
+}
+
+.task h1 {
+  color: #66cc00;
+  margin-top: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 18px; /* Increase font size for better readability */
+}
+
+.task input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #666;
+  border-radius: 50%;
+  background-color: #444;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.task input[type="checkbox"]:checked {
+  background-color: #66cc00; /* Change background color when checked */
+}
+
+.task button {
+  background-color: #555;
+  color: #66cc00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.task button:hover {
+  background-color: #666;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.task input[type="text"] {
+  background-color: #3f3f3f;
+  color: #66cc00;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.task input[type="text"]:focus {
+  background-color: #4f4f4f; /* Change background color on focus */
+}
+
+/* Done task styles */
+.done {
+  text-decoration: line-through;
+  color: #aaa;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.del_btn{
+  margin-left: 5vw;
+}
+
+.h1{
+  margin-left: 44vw;
+}
+.form_text{
+  margin-left: 42vw;
+}

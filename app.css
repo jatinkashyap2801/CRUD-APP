@@ -1,156 +1,47 @@
-/* body {
-  background-image: linear-gradient(to bottom, #212121, #333);
-  background-repeat: no-repeat;
-  font-family: 'Montserrat', sans-serif;
-  height:100vh
-}
-
-.task-list {
-  background-color: #2f2f2f;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: 1px solid #444;
-  overflow: hidden; 
-}
-
-.task-list h1 {
-  color: #66cc00;
-  margin-top: 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-size: 24px; 
-}
-
-.task {
-  background-color: #3f3f3f;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #555;
-  transition: background-color 0.3s ease; 
-}
-
-.task:hover {
-  background-color: #4f4f4f; 
-}
-
-.task h1 {
-  color: #66cc00;
-  margin-top: 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-size: 18px; 
-}
-
-.task input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  border: 1px solid #666;
-  border-radius: 50%;
-  background-color: #444;
-  cursor: pointer;
-  transition: background-color 0.3s ease; 
-}
-
-.task input[type="checkbox"]:checked {
-  background-color: #66cc00; 
-}
-
-.task button {
-  background-color: #555;
-  color: #66cc00;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: background-color 0.3s ease; 
-}
-
-.task button:hover {
-  background-color: #666;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.task input[type="text"] {
-  background-color: #3f3f3f;
-  color: #66cc00;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  width: 100%;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: background-color 0.3s ease; 
-}
-
-.task input[type="text"]:focus {
-  background-color: #4f4f4f; 
-}
-
-.done {
-  text-decoration: line-through;
-  color: #aaa;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.del_btn{
-  margin-left: 5vw;
-}
-
-.h1{
-  margin-left: 44vw;
-}
-.form_text{
-  margin-left: 42vw;
-} */
-
-
-/* Global styles */
 body {
   background-image: linear-gradient(to bottom, #212121, #333);
   background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  margin: 0; /* Add this to remove default margin */
+  margin: 0;
 }
 
-/* Task list styles */
 .task-list {
   background-color: #2f2f2f;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border: 1px solid #444;
-  overflow: hidden; /* Add a subtle overflow effect */
-  max-width: 80%; /* Add a max-width to make it responsive */
-  margin: 40px auto; /* Add margin to center it */
+  overflow: hidden;
+  max-width: 80%;
+  margin: 40px auto;
 }
 
 .task-list h1 {
   color: #66cc00;
   margin-top: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-size: 24px; /* Increase font size for better readability */
+  font-size: 24px;
 }
 
-/* Task styles */
 .task {
   background-color: #3f3f3f;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
   border: 1px solid #555;
-  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  transition: background-color 0.3s ease;
 }
 
 .task:hover {
-  background-color: #4f4f4f; /* Change background color on hover */
+  background-color: #4f4f4f;
 }
 
 .task h1 {
   color: #66cc00;
   margin-top: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-size: 18px; /* Increase font size for better readability */
+  font-size: 18px;
 }
 
 .task input[type="checkbox"] {
@@ -161,11 +52,11 @@ body {
   border-radius: 50%;
   background-color: #444;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  transition: background-color 0.3s ease;
 }
 
 .task input[type="checkbox"]:checked {
-  background-color: #66cc00; /* Change background color when checked */
+  background-color: #66cc00;
 }
 
 .task button {
@@ -176,7 +67,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  transition: background-color 0.3s ease;
 }
 
 .task button:hover {
@@ -192,14 +83,13 @@ body {
   border-radius: 10px;
   width: 100%;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  transition: background-color 0.3s ease;
 }
 
 .task input[type="text"]:focus {
-  background-color: #4f4f4f; /* Change background color on focus */
+  background-color: #4f4f4f;
 }
 
-/* Done task styles */
 .done {
   text-decoration: line-through;
   color: #aaa;
@@ -218,23 +108,21 @@ body {
   margin-left: 0vw;
 }
 
-/* Media Queries */
-
-/* For mobile devices */
 @media (max-width: 768px) {
   .task-list {
-    max-width: 90%; /* Increase max-width for mobile devices */
-    margin: 20px auto; /* Decrease margin for mobile devices */
+    max-width: 90%;
+    margin: 20px auto;
   }
   .task {
-    padding: 5px; /* Decrease padding for mobile devices */
+    padding: 5px;
   }
   .task h1 {
-    font-size: 16px; /* Decrease font size for mobile devices */
+    font-size: 16px;
   }
   .task input[type="text"] {
-    padding: 5px; /* Decrease padding for mobile devices */
+    padding: 5px;
   }
   .del_btn {
-    margin-left: 2vw; /* Decrease margin for mobile devices */
+    margin-left: 2vw;
   }
+}
